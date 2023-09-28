@@ -30,7 +30,11 @@ export default function NavBar(props) {
     </div>
   )
 }
-NavBar.PropTypes= {
+NavBar.propTypes= {
     tile:PropTypes.string,
     aboutText:PropTypes.string
+}
+NavBar.defaultProps ={
+    title: 'Set title here',
+    aboutText:'about'
 }
